@@ -1,0 +1,18 @@
+.container {
+  min-height: 100vh;
+  background: var(--primary-c);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 40%;
+  border-radius: 50px;
+  box-shadow: 20px 20px 60px #9da8ca, -20px -20px 60px #d5e4ff;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  align-items: center;
+  justify-items: center;
+}
